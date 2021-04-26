@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+}
+
+a {
+  color: #87ceeb;
+  transition: color 0.125s;
+}
+
+a:visited {
+  color: #87ceeb;
+}
+
+a:hover {
+  color: #bfefff;
+}
+
+a:active {
+  color: #1c1cf0;
+}
+
+.maintext {
+  font-size: 20px;
+}
+
+.sidetext {
+  font-size: 13px;
+}
+
+.wrapper {
+  text-align: center;
+}

@@ -1,5 +1,49 @@
-.fullscreen {
-  background-image: url('fullscreen.png');
-  width: 40px;
+body {
+  font-family: Arial;
+}
+
+a {
+  color: #87ceeb;
+  transition: color 0.125s;
+}
+
+a:visited {
+  color: #87ceeb;
+}
+
+a:hover {
+  color: #bfefff;
+}
+
+a:active {
+  color: #1c1cf0;
+}
+
+#logo {
+  transition: transform 0.25s;
+}
+
+#logo:hover {
+  transform: scale(1.125);
+}
+
+#fullscreen {
   float: right;
+  transition: transform 0.25s;
+}
+
+#fullscreen:hover {
+  transform: scale(1.125);
+}
+
+#bottom {
+  padding-top: 45%;
+}
+
+.imagelink {
+  text-decoration: none;
+}
+
+.wrapper {
+  text-align: center;
 }
