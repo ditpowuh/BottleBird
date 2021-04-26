@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Bottle Bird</title>
+    <link rel="shortcut icon" href="Images/Water Bottle Bird.ico">
+    <link rel="stylesheet" href="Unity/CSS/style.css">
+    <script src="Unity/JS/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Bottle Bird.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div id="unityContainer" style="width: 960px; height: 540px"></div>
+      <div class="footer">
+        <img id="logo" src="Images/Ditpowuh.png" height="50">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Bottle Bird</div>
+      </div>
+    </div>
+  </body>
+</html>
